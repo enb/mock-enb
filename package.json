@@ -1,0 +1,51 @@
+{
+  "author": "Andrew Abramov <andrewblond@yandex.com>",
+  "description": "Mocks for ENB",
+  "name": "mock-enb",
+  "version": "0.0.0",
+  "repository": "git://github.com/enb-make/mock-enb",
+  "homepage": "https://github.com/enb-make/mock-enb",
+  "bugs": "https://github.com/enb-make/mock-enb/issues",
+  "licenses": [
+    {
+      "type": "MPL-2.0",
+      "url": "https://github.com/enb-make/mock-enb/blob/master/LICENSE.txt"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Andrew Abramov",
+      "email": "mail@blond.im"
+    },
+    {
+      "name": "Marat Dulin",
+      "email": "mdevils@yandex.ru"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "peerDependencies": {
+    "enb": ">= 0.12.0 < 1.0.0"
+  },
+  "dependencies": {
+    "inherit": "2.2.2",
+    "vow": "0.4.9"
+  },
+  "devDependencies": {
+    "enb": ">= 0.12.0 < 1.0.0",
+    "istanbul": "0.3.14",
+    "jscs": "1.13.1",
+    "jshint": "2.7.0",
+    "mocha": "2.2.5",
+    "mock-fs": "2.7.0",
+    "must": "0.12.0"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run unit",
+    "lint": "jshint . && jscs -c .jscs.js .",
+    "unit": "mocha -R spec",
+    "cover": "istanbul cover _mocha",
+    "coveralls": "npm i coveralls && npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+  }
+}
