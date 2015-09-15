@@ -1,6 +1,12 @@
 История изменений
 =================
 
+0.2.0
+
+### Крупные изменения
+
+* Добавлена утилита для получения списка файлов (`FileList`) в директории ([#5]).
+
 0.1.0
 
 ### Крупные изменения
@@ -20,6 +26,7 @@
 
 * Модуль `vow@0.4.9` обновлён до версии `0.4.10`.
 
+[#5]: https://github.com/enb-make/mock-enb/pull/5
 [#3]: https://github.com/enb-make/mock-enb/pull/3
 [#2]: https://github.com/enb-make/mock-enb/pull/2
 [#1]: https://github.com/enb-make/mock-enb/pull/1
