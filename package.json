@@ -31,7 +31,7 @@
   "dependencies": {
     "clear-require": "1.0.1",
     "inherit": "2.2.2",
-    "vow": "0.4.10"
+    "vow": "0.4.11"
   },
   "devDependencies": {
     "chai": "3.2.0",
