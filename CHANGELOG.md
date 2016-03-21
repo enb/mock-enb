@@ -39,8 +39,8 @@
 
 * Модуль `vow@0.4.9` обновлён до версии `0.4.10`.
 
-[#8]: https://github.com/enb-make/mock-enb/pull/8
-[#5]: https://github.com/enb-make/mock-enb/pull/5
-[#3]: https://github.com/enb-make/mock-enb/pull/3
-[#2]: https://github.com/enb-make/mock-enb/pull/2
-[#1]: https://github.com/enb-make/mock-enb/pull/1
+[#8]: https://github.com/enb/mock-enb/pull/8
+[#5]: https://github.com/enb/mock-enb/pull/5
+[#3]: https://github.com/enb/mock-enb/pull/3
+[#2]: https://github.com/enb/mock-enb/pull/2
+[#1]: https://github.com/enb/mock-enb/pull/1
