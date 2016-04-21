@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "clear-require": "1.0.1",
+    "gulp-eval": "1.0.0-0",
     "inherit": "2.2.2",
     "vow": "0.4.11"
   },
