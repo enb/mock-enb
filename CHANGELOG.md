@@ -1,6 +1,20 @@
 История изменений
 =================
 
+0.3.2
+-----
+
+### Исправления ошибок
+
+* Исправлен метод `Node.runTechAndRequire()` для работы с `mock-fs` ([#11]).
+
+0.3.1
+-----
+
+### Исправления ошибок
+
+* Исправлен метод `Node.resolvePath()` ([#9]).
+
 0.3.0
 -----
 
@@ -39,6 +53,8 @@
 
 * Модуль `vow@0.4.9` обновлён до версии `0.4.10`.
 
+[#11]: https://github.com/enb/mock-enb/pull/11
+[#9]: https://github.com/enb/mock-enb/pull/9
 [#8]: https://github.com/enb/mock-enb/pull/8
 [#5]: https://github.com/enb/mock-enb/pull/5
 [#3]: https://github.com/enb/mock-enb/pull/3
