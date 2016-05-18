@@ -29,9 +29,8 @@
     "enb": ">= 0.16.0 < 2.0.0"
   },
   "dependencies": {
-    "clear-require": "1.0.1",
-    "gulp-eval": "1.0.0-0",
     "inherit": "2.2.2",
+    "node-eval": "^1.0.2",
     "vow": "0.4.11"
   },
   "devDependencies": {
