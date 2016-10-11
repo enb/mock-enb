@@ -30,16 +30,16 @@
   },
   "dependencies": {
     "file-eval": "1.0.0",
-    "inherit": "2.2.2",
-    "vow": "0.4.11"
+    "inherit": "2.2.6",
+    "vow": "0.4.12"
   },
   "devDependencies": {
-    "chai": "3.2.0",
+    "chai": "3.5.0",
     "enb": ">= 0.16.0 < 2.0.0",
-    "jscs": "1.13.1",
-    "jshint": "2.8.0",
-    "mocha": "2.3.3",
-    "mock-fs": "3.3.0"
+    "jscs": "3.0.7",
+    "jshint": "2.9.3",
+    "mocha": "3.1.2",
+    "mock-fs": "3.11.0"
   },
   "scripts": {
     "test": "npm run lint && npm run unit",
