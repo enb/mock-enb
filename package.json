@@ -2,7 +2,7 @@
   "author": "Andrew Abramov <andrewblond@yandex.com>",
   "description": "Mocks for ENB",
   "name": "mock-enb",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "repository": "git://github.com/enb/mock-enb",
   "homepage": "https://github.com/enb/mock-enb",
   "bugs": "https://github.com/enb/mock-enb/issues",
