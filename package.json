@@ -29,7 +29,7 @@
     "enb": ">= 0.16.0 < 2.0.0"
   },
   "dependencies": {
-    "file-eval": "1.0.1",
+    "file-eval": "1.1.0",
     "inherit": "2.2.6",
     "vow": "0.4.12"
   },
